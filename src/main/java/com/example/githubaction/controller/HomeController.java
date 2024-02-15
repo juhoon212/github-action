@@ -14,4 +14,9 @@ public class HomeController {
     public String home() {
         return "Hello CiCd! version: " + version;
     }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return "hello";
+    }
 }
